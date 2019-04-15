@@ -3,17 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ca.sheridancollege.project;
+package ca.sheridancollege.project.Models;
 
+import ca.sheridancollege.project.Models.Card;
 import java.util.List;
 
 /**
- *
+ * 
  * @author Deep
  */
-public class HumanPlayer extends Player{
+public class ComputerPlayer extends Player{
 
-    public HumanPlayer(String name,List<Card> card) {
+    public ComputerPlayer(String name, List<Card> card) {
         super(name,card);
     }
 
